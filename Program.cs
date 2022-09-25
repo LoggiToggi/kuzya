@@ -16,7 +16,7 @@ namespace qqqq
             client.MessageReceived += CommandsHandler;
             client.Log += Log;
 
-            var token = "MTAyMTQ0MjAyNjI5MTU5MzMxOA.GbMMyN.5-deDK4NZdwhXoI7wuy5_D-u9vAta4pTOUal6M";
+            var token = "";
 
             await client.LoginAsync(TokenType.Bot, token);
             await client.StartAsync();
